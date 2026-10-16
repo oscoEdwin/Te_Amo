@@ -1,0 +1,36 @@
+REGALO PARA SILVIA - cómo terminarlo
+====================================
+
+1) ARCHIVOS QUE YA ESTÁN PUESTOS
+
+   fotos/corazon.jpeg        -> aparece dentro del corazón cuando se llena
+   fotos/disco.jpeg          -> gira en el disco de "Te la dedico"
+   fotos/galeria-1 ... 8     -> la galería de fotos
+   musica/me-gustas.mp3      -> Joan Sebastian, "Me gustas"
+
+2) LO QUE FALTA: TU NOTA DE VOZ
+
+   Grábala, pásala a mp3 y guárdala así:  audio/mensaje.mp3
+   Mientras no exista, esa parte de la página no se muestra (no queda rota).
+
+3) CAMBIAR TEXTOS, FOTOS U ORDEN
+
+   Abre index.html y busca "CONFIG". Ahí puedes cambiar:
+   - el texto debajo de cada foto y el orden de la galería
+   - la carta completa
+   - lo que aparece al raspar la tarjeta (ahora: "Una cita conmigo")
+   - la frase del corazón (ahora: "Feliz aniversario, mi amor")
+   - "encuadre": qué parte de cada foto se ve ("50% 0%" = arriba)
+
+   Para agregar más fotos: ponlas en la carpeta fotos/ y añade una línea
+   en "galeria" igual a las demás.
+
+4) PARA ENVIÁRSELO A SILVIA
+
+   La página tiene que estar en internet para que ella la abra desde
+   su celular con un link. Lo más fácil:
+   - Entra a https://app.netlify.com/drop
+   - Arrastra la carpeta "aniversario" completa
+   - Te da un link: ese se lo mandas.
+
+   Pruébalo tú primero en tu celular antes de enviárselo.
